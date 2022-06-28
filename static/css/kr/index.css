@@ -1,0 +1,138 @@
+#kr .wrapper .main h1 {
+  width: 482px;
+  padding: 470px 0 0;
+}
+
+#kr .wrapper .main .bnr .catch h2.sub span {
+  font-size: 28px;
+}
+
+#kr .wrapper .main .bnr .skew {
+  width: 340px;
+}
+
+#kr .wrapper .main .bnr .skew.white {
+  width: 148px;
+  right: 233px;
+}
+
+#kr .wrapper footer .footer-inner .footer-logo {
+  position: relative;
+  width: 285px;
+  padding-right: 50px;
+  margin: -30px 30px 0 0;
+}
+
+#kr .wrapper footer .footer-inner .footer-logo img {
+  width: 100%;
+}
+
+#kr .wrapper footer .footer-inner .footer-logo:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 0, 0)), color-stop(10%, rgba(255, 240, 0, 0)), color-stop(40%, #ffc400), color-stop(60%, #ffa700), color-stop(90%, rgba(255, 124, 0, 0)), to(rgba(255, 109, 0, 0)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 0, 0) 0%, rgba(255, 240, 0, 0) 10%, #ffc400 40%, #ffa700 60%, rgba(255, 124, 0, 0) 90%, rgba(255, 109, 0, 0) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 0, 0) 0%, rgba(255, 240, 0, 0) 10%, #ffc400 40%, #ffa700 60%, rgba(255, 124, 0, 0) 90%, rgba(255, 109, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 0, 0) 0%, rgba(255, 240, 0, 0) 10%, #ffc400 40%, #ffa700 60%, rgba(255, 124, 0, 0) 90%, rgba(255, 109, 0, 0) 100%);
+}
+
+#kr .wrapper .main .bnr .catch h2 {
+  margin: 19px 0 10px 120px;
+}
+
+#kr .wrapper .main .bnr .catch h2.sub {
+  margin: 0 0 23px 330px;
+}
+
+#kr .modal-pre .pre-inner .reward .reward-list.first .inner p {
+  margin: 15px 0 0;
+}
+
+#kr .modal-pre .pre-inner .pre-body .btn_area {
+  margin: 86px auto 0;
+}
+
+#kr #pre .modal-pre .pre-inner .pre-body {
+  margin: -64px 0 0;
+}
+
+#kr #battle .pre-body {
+  height: 2570px;
+}
+
+#kr .wrapper .main .bnr-area {
+  margin: -300px 0 0;
+}
+
+@media only screen and (max-width: 767px) {
+  #kr .wrapper .main h1 {
+    width: 676px;
+  }
+
+  #kr .wrapper .main .bnr .catch h2 {
+    margin: 0 0 23px 320px;
+  }
+
+  #kr .wrapper .main .bnr .catch h2.grad {
+    margin: 19px 0 23px 420px;
+  }
+
+  #kr .wrapper .main .bnr .catch h2.name {
+    margin: 0 0 23px 470px;
+    font-size: 44px;
+    line-height: 1.6;
+  }
+
+  #kr .wrapper .main .bnr .catch h2.sub {
+    margin: 19px 0 10px 520px;
+  }
+
+  #kr .wrapper .main .bnr .catch h2.sub span {
+    font-size: 34px;
+    line-height: 1;
+  }
+
+  #kr .wrapper .main .bnr h3 span {
+    padding: 0 82px;
+  }
+
+  #kr .wrapper .main .bnr .skew {
+    margin: -39px 0 0 -45px;
+  }
+
+  #kr .wrapper .main .bnr .skew.white {
+    right: 227px;
+  }
+
+  #kr .wrapper footer .footer-inner .footer-logo {
+    width: 468px;
+    margin: 0 auto 40px;
+    padding-right: 0;
+  }
+
+  #kr .wrapper footer .footer-inner .footer-logo:after {
+    content: none;
+  }
+
+  #kr .wrapper .main .bnr-area {
+    margin: 140px 0 20px;
+  }
+
+}
+
+
+
+#kr .modal-pre .pre-inner .pre-body .btn_area .pre-btn ul {
+  width: 100%;
+}
+
+#kr .modal-pre .pre-inner .pre-btn {
+  width: 560px;
+  height: 108px;
+  margin: 0 90px 57px;
+}

@@ -1,0 +1,139 @@
+.wrapper{
+    height: 920px;
+    background-image: url(/static/img/stuff/fanarts/7.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.messageContainer{
+    height: 390px;
+    width: 650px;
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    border-radius: 30px;
+    padding: 30px 30px;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.botlabel{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.right img{
+    height: 250px;
+}
+
+.labelValue{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    height: 30px;
+}
+
+.butt{
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.wrapper:link, .wrapper:visited, .wrapper a{
+    color: #ff8b33 !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper{
+        height: 100%;
+        background-image: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .messageContainer{
+        height: 700px;
+        width: 100%;
+        margin: 0 20px;
+        background: none !important;
+        display: flex;
+        border-radius: 30px;
+        padding: 30px 30px;
+    }
+
+    .don{
+        width: 400px !important;
+    }
+    
+    .left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .right{
+        display: none !important;
+    }
+    
+    .botlabel{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    
+    .right img{
+        height: 250px;
+    }
+    
+    .labelValue{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input{
+        height: 30px;
+    }
+    
+    .butt{
+        height: 30px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .botlabel{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.616);
+        padding: 0 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}

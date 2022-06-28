@@ -1,0 +1,54 @@
+.wrapper{
+    height: 920px;
+    background-image: url(/static/img/stuff/fanarts/7.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageContainer{
+    height: 350px;
+    width: 650px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding-bottom: 30px;
+}
+
+.messageTop{
+    height: 33%;
+    font-weight: bold;
+    font-size: 40px !important;
+    padding: 0 !important;
+}
+
+.messageBot{
+    height: 33%;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.messageContainer p{
+    display: flex;
+    padding-left: 50px;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.linktomain{
+    display: flex;
+    height: 33%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.wrapper:link, .wrapper:visited, .wrapper a{
+    color: #ff8b33 !important;
+}
